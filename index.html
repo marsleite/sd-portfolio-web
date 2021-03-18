@@ -3,24 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
+    <style>
+      body {
+        background-color: #403F4C;
+        color: #B9E3C6;
+      }  
+      h1 {
+        text-align: center;
+        color: #EFBCD5;
+      }
+      .photo-perfil {
+        border-radius: 100%;
+      } 
+
+      #name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+      } 
+
+      .about-me{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 20px;
+      }
+
+      .button-style {
+        text-decoration: none;
+        background-color: #EFBCD5;
+        color: #403F4C;
+        padding: 15px 80px;
+        border-radius: 4px;
+        font-weight: 700;
+        
+      }
+
+    </style>
 </head>
 <body>
     <h1>Portfólio Web</h1>
     <hr>
     <ul>
-        <img src="img/perfil2.png" alt="Foto do perfil" width="200"><br><br>
-        <li><strong>Nome:</strong> Marcelo Souza Leite</li>
-        <li><strong>Sobre Mim:</strong> Brasileiro, natural de Salvador/BA</li> 
+        <img class="photo-perfil" src="img/perfil2.png" alt="Foto do perfil" width="200"><br><br>
+        <li id="name"><strong>Nome:</strong> Marcelo Souza Leite</li>
+        <li class="about-me"><strong>Sobre Mim:</strong> Brasileiro, natural de Salvador/BA</li> 
         <h4>Habilidades</h4>
         <ol>
-          <li><em>Desenvolvedor web fullstack em curso | Trybe</em></li>
-          <li>Fácil comunicação e integração em grupo</li>
-          <li>Engajado em aprender novas tecnologias</li>
-          <li>Empreendedorismo e gestão</li>
-        </ol><br>
-        <a href="img/perfil2.png">Clique para ver foto do perfil</a>
-        <br><br>
-        <a href="https://stackoverflow.blog/" target="_blank" rel="noopener noreferrer">Meu blog favorito</a>
+          <li class="about-me"><em>Desenvolvedor web fullstack em curso | Trybe</em></li>
+          <li class="about-me">Fácil comunicação e integração em grupo</li>
+          <li class="about-me">Engajado em aprender novas tecnologias</li>
+          <li class="about-me">Empreendedorismo e gestão</li>
+        </ol><br><br>
+        <a class="button-style" href="img/perfil2.png">Clique para ver foto do perfil</a>
+        <br><br><br>
+        <a class="button-style" href="https://stackoverflow.blog/" target="_blank" rel="noopener noreferrer">Meu blog favorito</a>
     </ul>
 </body>
 </html>
