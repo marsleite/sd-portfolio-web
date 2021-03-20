@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfólio Web</title>
-
+  <meta charset="UTF-8">
+  <title>Portfólio Web</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Portfólio Web</h1>
-    <hr>
-    <ul>
-        <img class="photo-perfil" src="img/perfil2.png" alt="Foto do perfil" width="200"><br><br>
-        <li id="name"><strong>Nome:</strong> Marcelo Souza Leite</li>
-        <li class="about-me"><strong>Sobre Mim:</strong> Brasileiro, natural de Salvador/BA</li> 
-        <h4>Habilidades</h4>
+    <div class="principal-title">
+     <h1>Portfólio Web</h1>
+    </div>
+    <div class="menu sidebyside">
+      <ul>
+        <li><a href="#about-me">Sobre Mim</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#linkedin">Meu perfil Linkedin</a></li>
+      </ul>
+    </div>
+    <div class="about-all sidebyside">
+      <div class="about-me">
+        <img class="photo-perfil" src="img/perfil2.png" alt="Foto do perfil" width="150"><br><br>
+        <strong>Nome:</strong> Marcelo Souza Leite <br>
+        <strong>Sobre Mim:</strong> Brasileiro, natural de Salvador/BA
+      </div>
+    </div>
+    <div class="skills sidebyside">
+      <h4>Habilidades</h4>
         <ol>
-          <li class="about-me"><em>Desenvolvedor web fullstack em curso | Trybe</em></li>
-          <li class="about-me">Fácil comunicação e integração em grupo</li>
-          <li class="about-me">Engajado em aprender novas tecnologias</li>
-          <li class="about-me">Empreendedorismo e gestão</li>
-        </ol><br><br>
-        <a class="button-style" href="img/perfil2.png">Clique para ver foto do perfil</a>
-        <br><br><br>
-        <a class="button-style" href="https://stackoverflow.blog/" target="_blank" rel="noopener noreferrer">Meu blog favorito</a>
+          <li><em>Desenvolvedor web fullstack em curso | Trybe</em></li>
+          <li>Fácil comunicação e integração em grupo</li>
+          <li>Engajado em aprender novas tecnologias</li>
+          <li>Empreendedorismo e gestão</li>
+        </ol>
+    </div>
+    <br>
+      <a class="button-style" href="img/perfil2.png">Clique para ver foto do perfil</a>
+      <a class="button-style" href="https://stackoverflow.blog/" target="_blank" rel="noopener noreferrer">Meu blog favorito</a>
     </ul>
 </body>
 </html>

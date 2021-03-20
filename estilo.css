@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    background: #333;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+}
+div.sidebyside{
+    display: inline-block;
+}
+.principal-title{
+    background-color: darkviolet;
+    padding: 10px;
+    text-align: center;
+    color: honeydew;
+    
+}
+ul li {
+    list-style: none;
+    line-height: 2;
+}
+.menu {
+    background-color: indigo;
+}
