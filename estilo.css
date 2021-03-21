@@ -1,32 +1,71 @@
 * {
-    box-sizing: border-box;
     margin: 0;
-    padding: 0;
     outline: none;
+    box-sizing: border-box
+
 }
-body {
-    width: 100%;
-    min-height: 100%;
-    background: #333;
-    background-size: cover;
-    font-size: 16px;
-    font-family: 'Arial', sans-serif;
-    font-weight: 400;
+body{
+  background: #333;
+  background-size: cover;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+
 }
-div.sidebyside{
-    display: inline-block;
+.principal-title {
+  
+  padding: 35px;
+  text-align: center;
 }
-.principal-title{
-    background-color: darkviolet;
-    padding: 10px;
-    text-align: center;
-    color: honeydew;
-    
+
+.container-wrapper{
+  margin-left: 30%; 
+  max-width: 50%;
+  
 }
 ul li {
-    list-style: none;
-    line-height: 2;
+  list-style: none;
+  line-height: 4;
 }
-.menu {
-    background-color: indigo;
+.list-menu {
+  position:absolute; 
+
+  width: 200px;
+}
+
+.pure-content{
+  margin-left: 10%;
+}
+.bolder {
+  font-weight: 800;
+}
+.photo-perfil{
+  margin-top: 30px;
+  border-radius: 100%;
+  width: 150px;
+}
+#name {
+  margin-top: 10px;
+}
+#skills {
+  margin-top: 30px;
+}
+a{
+  color: antiquewhite;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+.buttons-style{
+  margin-top: 30px;
+  width: 400px;
+}
+.button-perfil{
+  background-color: black;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
 }
